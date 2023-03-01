@@ -1,0 +1,20 @@
+{
+  "name": "figna-land",
+  "version": "1.0.0",
+  "description": "project with using gulp",
+  "author": "Maria Rykova",
+  "devDependencies": {
+    "browser-sync": "^2.28.1",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-uglify": "^3.0.2"
+  }
+}
