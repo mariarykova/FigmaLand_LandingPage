@@ -12,10 +12,12 @@ function isEmailValid(value) {
 function onInput() {
   if (isEmailValid(email.value)) {
     email.style.borderColor = "green";
-    error.textContent = "";
+    // error.textContent = "";
+    error.style.color = "transparent";
   } else {
     email.style.borderColor = "red";
-    error.textContent = "Enter correct Email";
+    error.style.color = "red";
+    // error.textContent = "Enter correct Email";
   }
 }
 
