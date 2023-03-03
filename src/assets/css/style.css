@@ -61,6 +61,12 @@
 
 .header-menu li {
   list-style-type: none;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+}
+
+.header-menu li:hover {
+  border-bottom: 1px solid #ef2779;
 }
 
 #email,
@@ -89,7 +95,7 @@ input::placeholder {
 }
 
 .email_error {
-  color: red;
+  color: transparent;
   font-size: 10px;
 }
 
@@ -672,6 +678,10 @@ textarea::placeholder {
     display: none;
   }
 
+  .section_partners {
+    margin-bottom: 30px;
+  }
+
   .section_partners_items {
     flex-direction: column;
     align-items: center;
@@ -692,6 +702,11 @@ textarea::placeholder {
   }
 
   .section_testimoinals {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .section_testimoinals .section_features_title {
     padding-bottom: 50px;
   }
 
