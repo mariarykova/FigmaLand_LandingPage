@@ -746,3 +746,30 @@ textarea::placeholder {
     width: 300px;
   }
 }
+
+@media only screen and (max-width: 321px) {
+  .section_subscribe_form .btn-subscribe {
+    width: 313px;
+  }
+
+  .section_features {
+    margin-bottom: 100px;
+  }
+
+  .section_partners {
+    margin-top: 50px;
+  }
+
+  .form_send {
+    padding: 79px 10px 26px 10px;
+  }
+
+  .form_send #email,
+  .form_send #name {
+    width: 260px;
+  }
+
+  #message {
+    width: 260px;
+  }
+}
